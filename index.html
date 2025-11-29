@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://picsum.photos/32/32" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Wali | Visual Storyteller</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#050505', // Ultra Dark
+              surface: '#0a0a0a',    // Almost Black
+              subtle: '#171717',     // Dark Grey
+              border: '#262626',     // Grey
+              text: '#ededed',       // Off White
+              muted: '#737373',      // Neutral Grey
+              primary: '#ffffff',    // White
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.8s ease-out forwards',
+              'slide-up': 'slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'shimmer': 'shimmer 2s linear infinite',
+              'spotlight': 'spotlight 2s ease .75s 1 forwards',
+              'float-up': 'floatUp 15s linear infinite',
+              'twinkle': 'twinkle 4s ease-in-out infinite',
+              'text-shimmer': 'textShimmer 3s ease-out infinite alternate',
+              'glitch-1': 'glitch1 2.5s infinite linear alternate-reverse',
+              'glitch-2': 'glitch2 3s infinite linear alternate-reverse',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              shimmer: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(100%)' },
+              },
+              spotlight: {
+                '0%': { opacity: 0, transform: 'translate(-50%, -50%) scale(0.5)' },
+                '100%': { opacity: 1, transform: 'translate(-50%, -50%) scale(1)' },
+              },
+              floatUp: {
+                '0%': { transform: 'translateY(100vh) rotate(0deg)', opacity: '0' },
+                '10%': { opacity: '1' },
+                '90%': { opacity: '1' },
+                '100%': { transform: 'translateY(-10vh) rotate(360deg)', opacity: '0' },
+              },
+              twinkle: {
+                '0%, 100%': { opacity: '0.2', transform: 'scale(1)' },
+                '50%': { opacity: '1', transform: 'scale(1.5)' },
+              },
+              textShimmer: {
+                '0%': { color: '#ffffff' },
+                '100%': { color: '#a1a1aa' },
+              },
+              glitch1: {
+                '0%': { clipPath: 'inset(20% 0 80% 0)' },
+                '20%': { clipPath: 'inset(60% 0 10% 0)' },
+                '40%': { clipPath: 'inset(40% 0 50% 0)' },
+                '60%': { clipPath: 'inset(80% 0 5% 0)' },
+                '80%': { clipPath: 'inset(10% 0 60% 0)' },
+                '100%': { clipPath: 'inset(30% 0 30% 0)' },
+              },
+              glitch2: {
+                '0%': { clipPath: 'inset(10% 0 60% 0)' },
+                '20%': { clipPath: 'inset(30% 0 20% 0)' },
+                '40%': { clipPath: 'inset(10% 0 80% 0)' },
+                '60%': { clipPath: 'inset(50% 0 40% 0)' },
+                '80%': { clipPath: 'inset(70% 0 10% 0)' },
+                '100%': { clipPath: 'inset(20% 0 50% 0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #050505;
+        color: #ededed;
+        overflow-x: hidden;
+      }
+
+      /* Custom Selection Color */
+      ::selection {
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #000;
+      }
+      
+      .glass-nav {
+        background: rgba(5, 5, 5, 0.8);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+      }
+
+      /* Custom Scrollbar for Dark Theme */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #262626;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #404040;
+      }
+
+      /* Hide default cursor on desktop to allow custom cursor */
+      @media (min-width: 768px) {
+        body, a, button {
+          cursor: none;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
