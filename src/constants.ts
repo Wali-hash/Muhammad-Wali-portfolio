@@ -41,13 +41,13 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Video Editing Showcase 07", 
     category: VideoCategory.VIDEO_EDITING,
     id: "edit-07",
-    videoSrc: "https://www.dropbox.com/scl/fi/laegki8oc7u4s9xno8v4k/07.mp4?rlkey=tmeonthw3e96g5cc0mgvzg53k&st=m6cmr1v5&dl=0",
+    videoSrc: "https://vimeo.com/reviews/8e34d92d-9fb5-48a4-9cf1-44b963b21d37/videos/1194611836",
   },
   { 
     title: "Video Editing Showcase 06", 
     category: VideoCategory.VIDEO_EDITING,
     id: "edit-06",
-    videoSrc: "https://www.dropbox.com/scl/fi/sardats9sxbujag3382df/06.mp4?rlkey=v7i8dtz8n2w1awutovj4z3ouj&st=b79a19d4&dl=0",
+    videoSrc: "https://vimeo.com/reviews/e3c33203-7826-48c7-abf0-3eecf6d4326c/videos/1194611829",
   },
   { 
     title: "Video Editing Showcase 05", 
