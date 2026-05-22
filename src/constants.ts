@@ -77,7 +77,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Video Editing Showcase 01", 
     category: VideoCategory.VIDEO_EDITING,
     id: "edit-01",
-    videoSrc: "https://vimeo.com/1194611820",
+    videoSrc: "https://vimeo.com/reviews/58457205-5ee0-41be-9cd0-0f9f0dca2c61/videos/1194611820",
   },
 
   // Motion Graphics
