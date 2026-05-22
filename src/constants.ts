@@ -53,7 +53,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Video Editing Showcase 05", 
     category: VideoCategory.VIDEO_EDITING,
     id: "edit-05",
-    videoSrc: "https://www.dropbox.com/scl/fi/59e7e7qusll9yfis6rpje/05.mp4?rlkey=ez11ly1gson1z51fi7o0zwxw6&st=7dll9jh1&dl=0",
+    videoSrc: "https://www.dropbox.com/scl/fi/9xe0d5mh5k2u63skgknxo/02.mp4?rlkey=ns3m6pk10e6pt150xkzs69md3&st=un8w2mw4&dl=0",
   },
   { 
     title: "Video Editing Showcase 04", 
@@ -91,7 +91,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Motion Graphics Showcase 02", 
     category: VideoCategory.MOTION_GRAPHICS,
     id: "mg-02",
-    videoSrc: "https://www.dropbox.com/scl/fi/9xe0d5mh5k2u63skgknxo/02.mp4?rlkey=ns3m6pk10e6pt150xkzs69md3&st=un8w2mw4&dl=0",
+    videoSrc: "https://vimeo.com/reviews/73104bd1-0430-40f1-9458-0725621741a1/videos/1194611828",
   },
   { 
     title: "Motion Graphics Showcase 01", 
