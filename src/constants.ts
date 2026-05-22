@@ -71,7 +71,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Video Editing Showcase 02", 
     category: VideoCategory.VIDEO_EDITING,
     id: "edit-02",
-    videoSrc: "https://www.dropbox.com/scl/fi/zb9hy8i0thkwkdjs49tht/02.mp4?rlkey=w5wsuo6pu35k6o5k06bq2rduj&st=bfnm73ir&dl=0",
+    videoSrc: "https://vimeo.com/reviews/8a3a5f38-88ad-4d08-819a-5beebf92d99c/videos/1194611827",
   },
   { 
     title: "Video Editing Showcase 01", 
