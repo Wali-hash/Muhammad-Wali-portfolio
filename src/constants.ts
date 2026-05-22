@@ -21,7 +21,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "AI Concept Visualization 01", 
     category: VideoCategory.AI_ANIMATION,
     id: "ai-01",
-    videoSrc: "https://www.dropbox.com/scl/fi/ufl13f90duq12lkn99y2v/01-1.mp4?rlkey=u7xoccqufhinlls8447ttxtcs&st=ulifagtb&dl=0",
+    videoSrc: "https://vimeo.com/reviews/5f0cb223-c817-45fc-bad5-6179c5a502ae/videos/1194611835",
   },
   { 
     title: "AI Dynamic Scene 02", 
