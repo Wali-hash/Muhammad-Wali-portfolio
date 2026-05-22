@@ -27,7 +27,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "AI Dynamic Scene 02", 
     category: VideoCategory.AI_ANIMATION,
     id: "ai-02",
-    videoSrc: "https://www.dropbox.com/scl/fi/yq8ybnn1h48ao1piczd7t/02-1.mp4?rlkey=kamf311g5of5oja6bc1ppdiie&st=xkq89vby&dl=0",
+    videoSrc: "https://vimeo.com/reviews/cc404a46-0bc1-45d7-8696-b90f58262b77/videos/1194611840",
   },
 
   // Video Editing
@@ -35,7 +35,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Video Editing Showcase 08", 
     category: VideoCategory.VIDEO_EDITING,
     id: "edit-08",
-    videoSrc: "https://www.dropbox.com/scl/fi/l4hqobzx0nft8h2x9huxz/8.mp4?rlkey=ky09b4x5r0vgjuy4wqpjlnnb2&st=h9yvgwnk&dl=0",
+    videoSrc: "https://www.dropbox.com/scl/fi/21iubciw47p2dwqghthg0/03.mp4?rlkey=tnvxrvpumsbwmxjv2b6509387&st=2etncx4a&dl=0",
   },
   { 
     title: "Video Editing Showcase 07", 
@@ -85,7 +85,7 @@ export const PORTFOLIO_ITEMS: VideoProject[] = [
     title: "Motion Graphics Showcase 03", 
     category: VideoCategory.MOTION_GRAPHICS,
     id: "mg-03",
-    videoSrc: "https://www.dropbox.com/scl/fi/21iubciw47p2dwqghthg0/03.mp4?rlkey=tnvxrvpumsbwmxjv2b6509387&st=2etncx4a&dl=0",
+    videoSrc: "https://vimeo.com/reviews/51e4da34-7017-4e6e-9a92-51ca9faf4524/videos/1194611834",
   },
   { 
     title: "Motion Graphics Showcase 02", 
